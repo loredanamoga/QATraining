@@ -5,4 +5,10 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MS.QualityTools.UnitTestFramework.Specifications.Signed" Version="1.0.2" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="WebDriver.ChromeDriver.win32" Version="2.46.0" />
+  </ItemGroup>
+
 </Project>
